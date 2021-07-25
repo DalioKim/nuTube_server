@@ -6,7 +6,7 @@
 //받아온 영상아이템의 정보들을 json형태로 만들어준다.
 //클라이언트로 다시 보내준다.
 
-$db = mysqli_connect("localhost", "root","suMMit88$","youtube");
+$db = mysqli_connect("localhost", "root","","youtube");
 $db->set_charset("utf8");
 
 //로컬에서 보낸 요청횟수에 대한 변수를 저장하고, 정해진 수를 곱한다.
