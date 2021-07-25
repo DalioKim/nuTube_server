@@ -111,7 +111,7 @@ def predict():
                 print("부적합한 영상")
                 response = 'false'
                 boolean = 'false'
-                conn = pymysql.connect(host='localhost', user='rayDalio', password='suMMit88$',
+                conn = pymysql.connect(host='localhost', user='', password='',
                                         db='youtube', charset='utf8')
 
                 curs = conn.cursor(pymysql.cursors.DictCursor)
