@@ -32,28 +32,7 @@ if (isset($_FILES["imageFile"]) )
  $file_path = "videos/";
   if(move_uploaded_file($_FILES['imageFile']['tmp_name'], $file_path.$image_file_name)){
 
-/*
-      $db = mysqli_connect("localhost", "rayDalio","suMMit88$","youtube");
-      $db->set_charset("utf8");
-      $insert_sql = mysqli_query($db, "INSERT into video (id,title, startTime,current,humbnailName) values ('$id','$title','$date',"true",'$image_file_name')");
-      //$insert_sql = mysqli_query($db, "INSERT into video (videoName) values ('$video_file_name')");
 
-      if($insert_sql){
-      echo json_encode(array("response"=>$image_file_name));
-      //echo json_encode(array("response"=>$theFirst));
-
-  }
-
-
-
-
-}else{
-    echo json_encode(array("response"=>"fail"));
-  }
-
-
-
-*/
 echo json_encode(array("response"=>$image_file_name));
 
 
