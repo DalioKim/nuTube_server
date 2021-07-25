@@ -3,7 +3,7 @@
 <?php
 //
 
-$db = mysqli_connect("localhost", "rayDalio","suMMit88$","youtube");
+$db = mysqli_connect("localhost", "","","youtube");
 $db->set_charset("utf8");
 
 //로컬에서 보낸 요청횟수에 대한 변수를 저장하고, 정해진 수를 곱한다.
