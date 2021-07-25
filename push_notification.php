@@ -23,7 +23,7 @@ $waitTime= $waitTime-30;
 sleep($waitTime);
 
 
-    define("GOOGLE_API_KEY", "AAAASS7TEQY:APA91bH-qwaudcEVcER7331nRkTb4RzAnhswyEB2D1xuFK5oz4kuu519_JuXH7oQL9REK_4pxqNKAATaj9bdWSPO5mNhI71LsAYLZh0doLKx7-tLfnEwclcLJLzEvEUpr1d853DIaOFc");
+    define("GOOGLE_API_KEY", "");
 
     function send_notification ($tokens, $message)
     {
