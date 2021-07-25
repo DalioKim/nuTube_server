@@ -42,7 +42,7 @@ if (isset($_FILES["videoFile"]) && isset($_FILES["imageFile"]) )
 
     //echo json_encode(array("response"=>"영상파일명 :".$video_file_name." 이미지파일명 :".$image_file_name." 아이디: "+$id));
 
-      $db = mysqli_connect("localhost", "rayDalio","suMMit88$","youtube");
+      $db = mysqli_connect("localhost", "","","youtube");
       $db->set_charset("utf8");
       $insert_sql = mysqli_query($db, "INSERT into video (videoName, thumbnailName, userId, title, subtitle, tag, dateTime, hit , theFirst, startTime) values ('$video_file_name','$image_file_name','$id','$title','$explain','$tag','$date',0,'$theFirst','$startTime')");
       //$insert_sql = mysqli_query($db, "INSERT into video (videoName) values ('$video_file_name')");
