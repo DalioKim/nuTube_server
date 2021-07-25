@@ -6,7 +6,7 @@
 //받아온 영상아이템의 정보들을 json형태로 만들어준다.
 //클라이언트로 다시 보내준다.
 
-$db = mysqli_connect("localhost", "rayDalio","suMMit88$","youtube");
+$db = mysqli_connect("localhost", "","","youtube");
 $db->set_charset("utf8");
 
 $id = $_POST['id'];
