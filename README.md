@@ -15,6 +15,6 @@
   <a href="https://github.com/DalioKim/nuTube_server/tree/master">전체 보기</a></br></br>
   <a href="https://github.com/DalioKim/nuTube_server/blob/master/LiveChat.java">채팅서버</a></br></br>
   <a href="https://github.com/DalioKim/nuTube_server/blob/master/censored.py">영상감지 Ai Flask 서버</a></br></br>
-  <a href="https://github.com/DalioKim/nuTube_server/blob/master/upload_comment.php">Vod 댓글 작 서버</a></br></br>
+  <a href="https://github.com/DalioKim/nuTube_server/blob/master/upload_comment.php">Vod 댓글 작업 서버</a></br></br>
   <a href="https://github.com/DalioKim/nuTube_server/blob/master/push_notification.php">최초공개(FCM) 서버</a></br></br>
  </br></br>
